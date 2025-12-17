@@ -1,3 +1,4 @@
+from database import create_tables, save_booking, save_ticket
 import streamlit as st
 import qrcode
 import uuid
@@ -109,3 +110,4 @@ if st.session_state.paid:
 
     if ticket_for == "Others":
         st.warning(f"📩 Tickets can be shared with: {contact}")
+
