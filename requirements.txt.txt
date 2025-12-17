@@ -1,6 +1,0 @@
-streamlit
-qrcode[pil]
-pillow
-
-
-
